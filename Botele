@@ -29,7 +29,7 @@ if __name__ == '__main__':
                 print(time.asctime(), '-', event.message)  # optionally log time and message
                 time.sleep(1)  # pause for 1 second to rate-limit automatic replies
                 await event.respond(message)
-
+#SANGPATI
 
     print(time.asctime(), '-', 'Auto-replying...')
     client.start(phone, password)
